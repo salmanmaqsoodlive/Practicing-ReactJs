@@ -1,0 +1,15 @@
+.SideDrawer {
+  position: fixed;
+  background-color: beige;
+  top: 0;
+  left: 0;
+  transition: transform 0.3 ease-in-out;
+  width: 70%;
+  height: 100%;
+}
+
+@media (min-width: 550px) {
+  .SideDrawer {
+    display: none;
+  }
+}
